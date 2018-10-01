@@ -18,7 +18,7 @@ export default class Body extends React.Component {
     super(props);
     this.state = {
       markdown: '',
-      style: '',
+      style: ''
     }
   }
 
@@ -46,7 +46,6 @@ export default class Body extends React.Component {
 
 
           <div style={{overflow: 'auto', height: '100%'}}>
-
             {slides.map((slide, index) =>
               <div key={index} style={{position: 'relative', width: '100%', paddingTop: '75%'}}>
                 <Paper elevation={1} style={{ padding: 20, position: 'absolute', top: 25, left: 25, bottom: 25, right: 25}}>
@@ -54,7 +53,6 @@ export default class Body extends React.Component {
                 </Paper>
               </div>
             )}
-
           </div>
 
         </SplitPane>

@@ -9,10 +9,10 @@ const Header = styled.div`
   padding: 10px;
 `
 
-export default () =>
+export default ({onPresentClicked}) =>
   <Header>
 
-  <Button variant="contained" size="small">
+  <Button variant="contained" size="small" onClick={() => onPresentClicked()}>
     <PlayArrowIcon style={{fontSize: '18px'}} /> Present
   </Button>
 
