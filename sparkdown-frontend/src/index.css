@@ -5,6 +5,10 @@ html, body {
   font-family: sans-serif;
 }
 
+textarea {
+  font-family: sans-serif;
+}
+
 #root {
   height: 100%;
 }

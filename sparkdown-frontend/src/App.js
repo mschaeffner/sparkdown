@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import SplitPane from 'react-split-pane'
 import Header from './Header'
 import Body from './Body'
 
